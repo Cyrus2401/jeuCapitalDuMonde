@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{ 
+    background: url('w.jpg');
+    background-repeat:no-repeat; 
+    background-size: cover;
+}
+h1{
+    background-color: rgb(111, 111, 197);
+    padding: 15px;
+    text-align: center;
+    color: white;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    text-shadow: 2px 1px 2px #fff;
+}
+.containerAll{
+    background-color: rgba(17, 17, 17, 0.4);
+    z-index: -10;
+    height:100vh;
+}
+.divButton{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.divButton button{
+    padding: 15px;
+    border: 2px rgb(111, 111, 197) solid;
+    font-size: 15px;
+    background-color: #fff;
+    transition: ease-in 0.5s;
+    transform: scale(1.1);
+    border-radius: 5px;
+    outline: none;
+}
+.divButton button:hover{
+    padding: 15px;
+    background-color:rgb(111, 111, 197);
+    color: #fff;
+}
+.containerQuestions{
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+hr{
+    margin-bottom: 5%;
+    border-color: rgb(111, 111, 197);
+}
+.containerQuestions h3{
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(111, 111, 197);
+}
+.containerQuestions p{
+    text-align: center;
+    position: relative;
+    margin-bottom: 4%;
+}
+.containerQuestions input{
+    margin: auto;
+    padding: 10px;
+    width: 70%;
+    outline: none;
+    border: rgb(111, 111, 197) 1px solid;
+}
+.containerQuestions div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.containerQuestions div button{  
+    margin: auto;
+    padding: 10px;
+    width: 20%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+.validAnswer{
+    border: 2px green solid;
+}
+.validAnswer:hover{
+    background-color:green;
+    color: #fff;
+}
+.passQuestion{
+    border: 2px red solid;
+}
+.passQuestion:hover{
+    background-color:red;
+    color: #fff;
+}
+.showAnswer{
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    margin: auto;
+    width: 50%;
+    border-radius: 5px;
+}
+.showAnswer img{
+    margin: auto;
+    width: 20%;
+    display: none;
+}
+.showAnswer p{
+    text-align: center;
+    font-size: 22px;
+}
+.showAnswer p span{
+    margin: auto;
+    width: 50%;
+    font-size: 14px;
+}
+.showAnswer div {
+    margin: auto;
+    padding: 10px;
+    width: 50%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+.showAnswer div button{
+    margin: auto;
+    padding: 10px;
+    width: 100%;
+}
+.divShowMessage{
+    background-color: rgba(250, 0, 0, 0.8);
+    z-index: -100;
+    padding: 15px;
+    color: #fff;
+    width: 50%;
+    margin: auto;
+    margin-top: 5%;
+    text-align: center;
+    display: none;
+}
