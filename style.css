@@ -10,12 +10,13 @@ body{
 }
 h1{
     background-color: rgb(111, 111, 197);
-    padding: 15px;
+    padding: 20px;
     text-align: center;
     color: white;
     letter-spacing: 2px;
     word-spacing: 3px;
     text-shadow: 2px 1px 2px #fff;
+    font-size:  1.5rem;
 }
 .containerAll{
     background-color: rgba(17, 17, 17, 0.4);
@@ -31,12 +32,13 @@ h1{
 .divButton button{
     padding: 15px;
     border: 2px rgb(111, 111, 197) solid;
-    font-size: 15px;
+    font-size: 1rem;
     background-color: #fff;
     transition: ease-in 0.5s;
     transform: scale(1.1);
     border-radius: 5px;
     outline: none;
+    width: 100%;
 }
 .divButton button:hover{
     padding: 15px;
@@ -61,11 +63,12 @@ hr{
     text-align: center;
     padding: 10px;
     background-color: rgb(111, 111, 197);
+    font-size: 1.2vw;
 }
 .containerQuestions p{
     text-align: center;
     position: relative;
-    margin-bottom: 4%;
+    margin-bottom: 2%;
 }
 .containerQuestions input{
     margin: auto;
@@ -81,10 +84,11 @@ hr{
 }
 .containerQuestions div button{  
     margin: auto;
-    padding: 10px;
-    width: 20%;
+    padding: 5px;
+    /* width: 20%; */
     margin-top: 2%;
     margin-bottom: 3%;
+    font-size: 1vw;
 }
 .validAnswer{
     border: 2px green solid;
@@ -118,7 +122,7 @@ hr{
 }
 .showAnswer p{
     text-align: center;
-    font-size: 22px;
+    font-size: 1.2rem;
 }
 .showAnswer p span{
     margin: auto;
@@ -140,11 +144,126 @@ hr{
 .divShowMessage{
     background-color: rgba(250, 0, 0, 0.8);
     z-index: -100;
-    padding: 15px;
+    padding: 10px;
     color: #fff;
     width: 50%;
     margin: auto;
-    margin-top: 5%;
+    margin-top: 7%;
     text-align: center;
     display: none;
+}
+.divShowMessage p{
+    font-size: 1.2vw;
+}
+/* RESPONSIVITE */
+
+@media(max-width:1000px){
+    .containerQuestions{
+        width: 70%;
+    }
+    .containerQuestions h3{
+        font-size: 1.5vw;
+    }
+    .divShowMessage{
+        padding: 5px;
+        margin-top: 8%;
+    }
+}
+
+@media(max-width:800px){
+    .containerQuestions input{
+        padding: 6px;
+        width: 80%;
+        font-size: 1.5vw;
+    }
+    .divShowMessage{
+        padding: 5px;
+        margin-top: 12%;
+    }
+}
+
+@media(max-width:700px){
+
+    .divShowMessage{
+        padding: 5px;
+        margin-top: 15%;
+    }
+}
+
+@media(max-width:600px){
+    h1{
+        font-size: .9rem;
+    }
+    .divButton button{
+        font-size: .7rem;
+    }
+    .containerQuestions{
+        width: 80%;
+    }
+    .containerQuestions div button{
+        font-size: 1.7vw;
+    }
+    .containerQuestions h3{
+        font-size: 2vw;
+    }
+    .containerQuestions input{
+        padding: 6px;
+        width: 80%;
+        font-size: 2vw;
+    }
+    .containerQuestions p{
+        font-size: 2.5vw;
+    }
+    .divShowMessage{
+        margin-top: 18%;
+    }
+    .divShowMessage p{
+        font-size: 2vw;
+    }
+    .showAnswer p{
+        font-size: 1.1rem;
+    }
+}
+
+@media(max-width:500px){
+
+    .divShowMessage{
+        padding: 5px;
+        margin-top: 24%;
+    }
+    .showAnswer div button{
+        margin: auto;
+        padding: 5px;
+        width: 100%;
+        font-size: 1.5vw;
+    }
+    .showAnswer{
+        width: 70%;
+        padding: 10px;
+    }
+    
+}
+
+@media(max-width:400px){
+    .containerQuestions{
+        width: 90%;
+    }
+    .divButton button{
+        font-size: .5rem;
+    }
+    .containerQuestions h3{
+        font-size: 2.6vw;
+    }
+    .containerQuestions input{
+        padding: 6px;
+        width: 80%;
+        font-size: 2.7vw;
+    }
+    .divShowMessage{
+        padding: 5px;
+        margin-top: 32%;
+    }
+    .showAnswer p{
+        font-size: 1.2rem;
+    }
 }

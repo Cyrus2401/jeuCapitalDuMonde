@@ -27,7 +27,7 @@ let capitalAndPays =
 
     ]
 
-const NOMBRE_OF_QUESTIONS = 10;
+const NOMBRE_OF_QUESTIONS = 2;
 
 let btnStartGame = document.querySelector('.btnStartGame');
 
