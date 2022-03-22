@@ -1,33 +1,96 @@
 // DEfinition du tableau à 2 dimensions contenant les pays et leur capital
 let capitalAndPays =
     [
-        ['Quelle est la capitale du Benin ?', 'Porto-Novo'],
+        ["Quelle est la capitale du Benin ?", "Porto-Novo"],
 
-        ['Quelle est la capitale du Togo ?', 'Lomé'],
+        ["Quelle est la capitale du Togo ?", "Lomé"],
 
-        ['Quelle est la capitale du Ghana ?', 'Accra'],
+        ["Quelle est la capitale du Ghana ?", "Accra"],
 
-        ['Quelle est la capitale de la Cote-d\'Ivoire ?', 'Yamoussokro'],
+        ["Quelle est la capitale de la Cote-d'Ivoire ?", "Yamoussoukro"],
 
-        ['Quelle est la capitale du Sénégal ?', 'Dakar'],
+        ["Quelle est la capitale du Sénégal ?", "Dakar"],
 
-        ['Quelle est la capitale de la Djibouti ?', 'Djibouti'],
+        ["Quelle est la capitale de la Djibouti ?", "Djibouti"],
 
-        ['Quelle est la capitale de l\'Haiti ?', 'Port au Prince'],
+        ["Quelle est la capitale de l'Haiti ?", "Port-au-Prince"],
 
-        ['Quelle est la capitale de la France ?', 'Paris'],
+        ["Quelle est la capitale de la France ?", "Paris"],
 
-        ['Quelle est la capitale de l\'Espagne ?', 'Madrid'],
+        ["Quelle est la capitale de l'Espagne ?", "Madrid"],
 
-        ['Quelle est la capitale de l\'Italie ?', 'Rome'],
+        ["Quelle est la capitale de l'Italie ?", "Rome"],
 
-        ['Quelle est la capitale du Japon ?', 'Tokyo'],
+        ["Quelle est la capitale du Japon ?", "Tokyo"],
 
-        ['Quelle est la capitale du Pérou ?', 'Lima']
+        ["Quelle est la capitale du Pérou ?", "Lima"],
 
+        ["Quelle est la capitale de l'Algérie ?", "Alger"],
+
+        ["Quelle est la capitale de la Tunisie ?", "Tunis"],
+        
+        ["Quelle est la capitale de l'Afrique du Sud ?", "Pretoria"], 
+        
+        ["Quelle est la capitale de l'Allemagne ?", "Berlin"], 
+        
+        ["Quelle est la capitale de l'Angola ?", "Luanda"], 
+        
+        ["Quelle est la capitale de l'Argentine ?", "Buenos-Aires"], 
+        
+        ["Quelle est la capitale de l'Arménie ?", "Erevan"], 
+        
+        ["Quelle est la capitale de l'Arabie Saoudite ?", "Riyad"], 
+        
+        ["Quelle est la capitale de la Belgique ?", "Bruxelles"],
+        
+        ["Quelle est la capitale du Burkina-Faso ?", "Ouagadougou"],
+        
+        ["Quelle est la capitale du Cameroun ?", "Yaoundé"],
+        
+        ["Quelle est la capitale du Canada ?", "Ottawa"],
+        
+        ["Quelle est la capitale du Cap-Vert ?", "Praia"],
+        
+        ["Quelle est la capitale de la Chine ?", "Pékin"],
+        
+        ["Quelle est la capitale de la Colombie ?", "Bogota"],
+        
+        ["Quelle est la capitale de la Croatie ?", "Zagreb"],
+
+        ["Quelle est la capitale du Congo ?", "Brazaville"],
+
+        ["Quelle est la capitale de l'Egypte ?", "Le Caire"],
+
+        ["Quelle est la capitale des Émirats Arabes Unis ?", "Abu Dhabi"],
+
+        ["Quelle est la capitale des États-Unis ?", "Washington"], 
+
+        ["Quelle est la capitale du Gabon ?", "Libreville"], 
+
+        ["Quelle est la capitale de la Grèce?", "Athènes"], 
+
+        ["Quelle est la capitale de l'Inde ?", "New Delhi"],
+        
+        ["Quelle est la capitale de l'Irak ?", "Bagdad"],
+
+        ["Quelle est la capitale de l'Israel ?", "Jérusalem"],
+
+        ["Quelle est la capitale de la Jamaique ?", "Kingston"],
+
+        ["Quelle est la capitale du Kenya ?", "Nairobi"],
+
+        ["Quelle est la capitale du Libéria ?", "Monrovia"],
+
+        ["Quelle est la capitale de la Lybie ?", "Tripoli"],
+
+        ["Quelle est la capitale du Vatican ?", "Vatican"],
+
+        ["Quelle est la capitale de l'Ukraine ?", "Kiev"],
+
+        
     ]
 
-const NOMBRE_OF_QUESTIONS = 2;
+const NOMBRE_OF_QUESTIONS = 10;
 
 let btnStartGame = document.querySelector('.btnStartGame');
 
