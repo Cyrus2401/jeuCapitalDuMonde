@@ -7,13 +7,13 @@ let capitalAndPays =
 
         ["Quelle est la capitale du Ghana ?", "Accra"],
 
-        ["Quelle est la capitale de la Cote-d'Ivoire ?", "Yamoussoukro"],
+        ["Quelle est la capitale de la Cote-d'Ivoire ?", "Yamoussokro"],
 
         ["Quelle est la capitale du Sénégal ?", "Dakar"],
 
         ["Quelle est la capitale de la Djibouti ?", "Djibouti"],
 
-        ["Quelle est la capitale de l'Haiti ?", "Port-au-Prince"],
+        ["Quelle est la capitale de l'Haiti ?", "Port au Prince"],
 
         ["Quelle est la capitale de la France ?", "Paris"],
 
@@ -24,6 +24,10 @@ let capitalAndPays =
         ["Quelle est la capitale du Japon ?", "Tokyo"],
 
         ["Quelle est la capitale du Pérou ?", "Lima"],
+
+        ["Quelle est la capitale de l'Algérie ?", "Alger"],
+
+        ["Quelle est la capitale de la Tunisie ?", "Tunis"]
 
         ["Quelle est la capitale de l'Algérie ?", "Alger"],
 
