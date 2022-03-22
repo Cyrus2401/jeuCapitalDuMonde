@@ -7,7 +7,7 @@ let capitalAndPays =
 
         ["Quelle est la capitale du Ghana ?", "Accra"],
 
-        ["Quelle est la capitale de la Cote-d'Ivoire ?", "Yamoussokro"],
+        ["Quelle est la capitale de la Cote-d'Ivoire ?", "Yamoussoukro"],
 
         ["Quelle est la capitale du Sénégal ?", "Dakar"],
 
@@ -27,41 +27,37 @@ let capitalAndPays =
 
         ["Quelle est la capitale de l'Algérie ?", "Alger"],
 
-        ["Quelle est la capitale de la Tunisie ?", "Tunis"]
-
-        ["Quelle est la capitale de l'Algérie ?", "Alger"],
-
         ["Quelle est la capitale de la Tunisie ?", "Tunis"],
         
-        ["Quelle est la capitale de l'Afrique du Sud ?", "Pretoria"], 
-        
-        ["Quelle est la capitale de l'Allemagne ?", "Berlin"], 
-        
-        ["Quelle est la capitale de l'Angola ?", "Luanda"], 
-        
-        ["Quelle est la capitale de l'Argentine ?", "Buenos-Aires"], 
-        
-        ["Quelle est la capitale de l'Arménie ?", "Erevan"], 
-        
-        ["Quelle est la capitale de l'Arabie Saoudite ?", "Riyad"], 
-        
-        ["Quelle est la capitale de la Belgique ?", "Bruxelles"],
-        
-        ["Quelle est la capitale du Burkina-Faso ?", "Ouagadougou"],
-        
-        ["Quelle est la capitale du Cameroun ?", "Yaoundé"],
-        
-        ["Quelle est la capitale du Canada ?", "Ottawa"],
-        
-        ["Quelle est la capitale du Cap-Vert ?", "Praia"],
-        
-        ["Quelle est la capitale de la Chine ?", "Pékin"],
-        
-        ["Quelle est la capitale de la Colombie ?", "Bogota"],
-        
-        ["Quelle est la capitale de la Croatie ?", "Zagreb"],
-
-        ["Quelle est la capitale du Congo ?", "Brazaville"],
+ 	["Quelle est la capitale de l'Afrique du Sud ?", "Pretoria"], 
+ 	
+ 	["Quelle est la capitale de l'Allemagne ?", "Berlin"], 
+ 	
+ 	["Quelle est la capitale de l'Angola ?", "Luanda"], 
+ 	
+ 	["Quelle est la capitale de l'Argentine ?", "Buenos-Aires"], 
+ 	
+ 	["Quelle est la capitale de l'Arménie ?", "Erevan"], 
+ 	
+ 	["Quelle est la capitale de l'Arabie Saoudite ?", "Riyad"], 
+ 	
+ 	["Quelle est la capitale de la Belgique ?", "Bruxelles"],
+ 	
+ 	["Quelle est la capitale du Burkina-Faso ?", "Ouagadougou"],
+ 	
+ 	["Quelle est la capitale du Cameroun ?", "Yaoundé"],
+ 	
+ 	["Quelle est la capitale du Canada ?", "Ottawa"],
+ 	
+ 	["Quelle est la capitale du Cap-Vert ?", "Praia"],
+ 	
+ 	["Quelle est la capitale de la Chine ?", "Pékin"],
+ 	
+ 	["Quelle est la capitale de la Colombie ?", "Bogota"],
+ 	
+ 	["Quelle est la capitale de la Croatie ?", "Zagreb"],
+ 	
+ 	["Quelle est la capitale du Congo ?", "Brazaville"],
 
         ["Quelle est la capitale de l'Egypte ?", "Le Caire"],
 
@@ -89,9 +85,9 @@ let capitalAndPays =
 
         ["Quelle est la capitale du Vatican ?", "Vatican"],
 
-        ["Quelle est la capitale de l'Ukraine ?", "Kiev"],
+        ["Quelle est la capitale de l'Ukraine ?", "Kiev"]
 
-        
+ 	
     ]
 
 const NOMBRE_OF_QUESTIONS = 10;
