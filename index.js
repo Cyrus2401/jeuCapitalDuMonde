@@ -354,6 +354,10 @@ passQuestion.addEventListener('click', () => {
 
     if (inputAnswer.value.trim() == '') {
 
+        divShowMessage.style.display = "inherit"
+        showResult(3, capital)
+        setTimeout(hideDiv, 1500)
+
         if (i < NOMBRE_OF_QUESTIONS) {
             inputAnswer.value = ""
 
@@ -435,8 +439,13 @@ function showResult(nbr, goodAnswer) {
             break
 
         case 2:
-            message.innerHTML = "Mauvaise réponse ! La bonne réponse est <strong style='font-weight: 800'>" + goodAnswer + "</strong>"
+            message.innerHTML = "Mauvaise réponse ! La bonne réponse était <strong style='font-weight: 800'>" + goodAnswer + "</strong>"
             divShowMessage.style.backgroundColor = "red"
+            break
+
+        case 3:
+            message.innerHTML = "La bonne réponse était <strong style='font-weight: 800'>" + goodAnswer + "</strong>"
+            divShowMessage.style.backgroundColor = "orange"
             break
 
         default:
