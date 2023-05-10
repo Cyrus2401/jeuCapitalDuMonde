@@ -4,22 +4,22 @@
     box-sizing: border-box;
 }
 body{ 
-    background: url('w.jpg');
+    background: url('capitals.jpg');
     background-repeat:no-repeat; 
     background-size: cover;
+    background-position: center center;
 }
 h1{
-    background-color: rgb(111, 111, 197);
+    background-color: #07ACD1;
     padding: 20px;
     text-align: center;
     color: white;
-    letter-spacing: 2px;
-    word-spacing: 3px;
-    text-shadow: 2px 1px 2px #fff;
-    font-size:  1.5rem;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    font-size:  2rem;
 }
 .containerAll{
-    background-color: rgba(17, 17, 17, 0.4);
+    background-color: rgba(0, 0, 0, 0.5);
     z-index: -10;
     height:100vh;
 }
@@ -30,19 +30,18 @@ h1{
     transform: translate(-50%, -50%);
 }
 .divButton button{
-    padding: 15px;
-    border: 2px rgb(111, 111, 197) solid;
+    padding: 1em 2em;
+    border: 2px #07ACD1 solid;
     font-size: 1rem;
     background-color: #fff;
-    transition: ease-in 0.5s;
+    transition: ease-in 0.2-s;
     transform: scale(1.1);
     border-radius: 5px;
     outline: none;
     width: 100%;
 }
 .divButton button:hover{
-    padding: 15px;
-    background-color:rgb(111, 111, 197);
+    background-color:#07ACD1;
     color: #fff;
 }
 .containerQuestions{
@@ -56,14 +55,14 @@ h1{
 }
 hr{
     margin-bottom: 5%;
-    border-color: rgb(111, 111, 197);
+    border-color: #07ACD1;
 }
 .containerQuestions h3{
     color: #fff;
     text-align: center;
     padding: 10px;
-    background-color: rgb(111, 111, 197);
-    font-size: 1.2vw;
+    background-color: #07ACD1;
+    font-size: 1.5em;
 }
 .containerQuestions p{
     text-align: center;
@@ -75,7 +74,7 @@ hr{
     padding: 10px;
     width: 70%;
     outline: none;
-    border: rgb(111, 111, 197) 1px solid;
+    border: #07ACD1 1px solid;
 }
 .containerQuestions div{
     display: flex;
@@ -114,6 +113,7 @@ hr{
     margin: auto;
     width: 50%;
     border-radius: 5px;
+    padding: 2em;
 }
 .showAnswer img{
     margin: auto;
