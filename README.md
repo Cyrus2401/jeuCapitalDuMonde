@@ -44,7 +44,7 @@ cd jeuCapitalDuMonde
 **Yao Cyrus Junior HESSOU**
 - LinkedIn: [Profil](https://www.linkedin.com/in/yao-cyrus-junior-hessou-b6a58122b/)
 
-#### [🔗 jeu-capital-du-monde.vercel.app](jeu-capital-du-monde.vercel.app)
+#### [🔗 https://jeu-capital-du-monde.vercel.app/](https://jeu-capital-du-monde.vercel.app/)
 
 ---
 
