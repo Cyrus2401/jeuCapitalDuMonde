@@ -1,51 +1,27 @@
 # 🌍 Jeu des Capitales du Monde
 
-Un quiz interactif pour tester vos connaissances des capitales mondiales !
+Un quiz interactif, fluide et rapide pour tester vos connaissances géographiques.
 
 ## ✨ Fonctionnalités
 
-- **Validation intelligente** (ignore accents, espaces, casse)
-- **Système d'indices** (première lettre)
-- **Validation au clavier** (touche Entrée)
-- **Design responsive** pour tous les écrans
-- **Interface moderne** avec animations fluides
+- **Tolérance des réponses** : ignore la casse, les espaces et les accents
+- **Aide intégrée** : un système d'indice simple
+- **Jouabilité** : validation au clavier et interface minimaliste
 
-## 🚀 Installation
+## 🎮 Jouer en ligne
 
-```bash
-git clone https://github.com/Cyrus2401/jeuCapitalDuMonde.git
-cd jeuCapitalDuMonde
-# Ouvrir index.html dans le navigateur
-```
+👉 **[Tester le jeu ici](https://jeu-capital-du-monde.vercel.app/)**
 
-## 🎮 Comment jouer
+## 🚀 Lancer en local
 
-1. Cliquez sur "Commencer une nouvelle partie"
-2. Répondez aux 10 questions sur les capitales
-3. Utilisez l'indice 💡 si nécessaire
-4. Validez avec le bouton ou la touche Entrée
-5. Consultez votre score final !
+1. Clonez le dépôt :
+   ```bash
+   git clone https://github.com/Cyrus2401/jeuCapitalDuMonde.git
+   ```
+2. Ouvrez le fichier `index.html` dans votre navigateur.
 
-## 🛠️ Technologies
-
-- **HTML5** / **CSS3** (Flexbox, Grid)
-- **JavaScript ES6+** (Fetch API, Async/Await)
-- **Google Fonts** (Nunito)
-- **JSON** pour les données
-
-## 📊 Scoring
-
-- **< 50%** : Dommage, continuez à apprendre ! 😔
-- **≥ 50%** : Félicitations, bon niveau ! 😊  
-- **100%** : Parfait, expert en géographie ! 🎉
-  
 ## 👨‍💻 Auteur
 
-**Yao Cyrus Junior HESSOU**
-- LinkedIn: [Profil](https://www.linkedin.com/in/yao-cyrus-junior-hessou-b6a58122b/)
-
-#### [🔗 https://jeu-capital-du-monde.vercel.app/](https://jeu-capital-du-monde.vercel.app/)
-
----
-
-*Créé avec ❤️ par HESSOU Cyrus pour apprendre les capitales du monde*
+**Cyrus HESSOU**
+- [LinkedIn](https://www.linkedin.com/in/yao-cyrus-junior-hessou-b6a58122b/)
+- [GitHub](https://github.com/Cyrus2401)
