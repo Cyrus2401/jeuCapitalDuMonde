@@ -8,6 +8,13 @@ Un quiz interactif, fluide et rapide pour tester vos connaissances géographique
 - **Aide intégrée** : un système d'indice simple
 - **Jouabilité** : validation au clavier et interface minimaliste
 
+## 🛠️ Technologies
+
+- **HTML5** : Structure de l'application
+- **CSS3** : Design, animations et responsivité
+- **JavaScript (Vanilla)** : Logique du jeu et manipulation du DOM
+- **Hébergement & Déploiement** : Vercel
+
 ## 🎮 Jouer en ligne
 
 👉 **[Tester le jeu ici](https://jeu-capital-du-monde.vercel.app/)**
