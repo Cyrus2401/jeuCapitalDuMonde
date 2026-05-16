@@ -39,6 +39,8 @@ body {
     flex-direction: column;
     background: var(--background-overlay);
     backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    will-change: transform, opacity;
 }
 
 /* Header */
@@ -104,6 +106,7 @@ body {
     width: 100%;
     max-width: 900px;
     position: relative;
+    will-change: transform, opacity;
 }
 
 /* Start button */
@@ -155,6 +158,7 @@ body {
     width: 100%;
     max-width: 100%;
     backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
 }
 
 .divShowMessage p {
@@ -262,8 +266,9 @@ body {
 .tooltip {
     position: absolute;
     bottom: 120%;
-    left: 50%;
-    transform: translateX(-50%);
+    right: -10px;
+    left: auto;
+    transform: none;
     background: var(--text-dark);
     color: white;
     padding: clamp(0.4rem, 1vw, 0.6rem) clamp(0.6rem, 1.5vw, 0.8rem);
@@ -281,8 +286,9 @@ body {
     content: '';
     position: absolute;
     top: 100%;
-    left: 50%;
-    transform: translateX(-50%);
+    right: 20px;
+    left: auto;
+    transform: none;
     border: 5px solid transparent;
     border-top-color: var(--text-dark);
 }
@@ -403,6 +409,8 @@ body {
     box-shadow: 0 6px 20px rgba(7, 172, 209, 0.3);
     width: 100%;
     max-width: 300px;
+    display: block;
+    margin: 0 auto;
 }
 
 .btnStartNewGame:hover {
@@ -494,4 +502,66 @@ body {
 /* Utility classes */
 .hidden {
     display: none !important;
+}
+/* Footer */
+.footer {
+    background: rgba(0, 0, 0, 0.7);
+    color: var(--secondary-color);
+    padding: clamp(0.8rem, 1.5vw, 1.2rem);
+    text-align: center;
+    flex-shrink: 0;
+    box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    will-change: opacity;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    font-size: clamp(0.8rem, 1.5vw, 0.95rem);
+    font-weight: 500;
+}
+
+.footer a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 700;
+    transition: var(--transition);
+}
+
+.footer a:hover {
+    color: var(--secondary-color);
+    text-decoration: underline;
+}
+
+.footer-icons {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.footer-icons a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    transition: var(--transition);
+}
+
+.footer-icons a:hover {
+    background: var(--primary-color);
+    transform: translateY(-3px);
+}
+
+.footer-icons svg {
+    width: 18px;
+    height: 18px;
+    fill: white;
 }
