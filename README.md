@@ -1,34 +1,37 @@
-# 🌍 Jeu des Capitales du Monde
+# World Capitals Game
 
-Un quiz interactif, fluide et rapide pour tester vos connaissances géographiques.
+This application is a smooth, fast, and interactive quiz designed to test your geography knowledge of world capitals.
 
-## ✨ Fonctionnalités
+## Features
 
-- **Tolérance des réponses** : ignore la casse, les espaces et les accents
-- **Aide intégrée** : un système d'indice simple
-- **Jouabilité** : validation au clavier et interface minimaliste
+* **Answer tolerance**: ignores case sensitivity, spaces, and accents for a frustration-free experience.
+* **Built-in hints**: a simple hint system so you never get stuck.
+* **Gameplay-focused**: keyboard validation and a minimalist interface to keep you focused on the game.
 
-## 🛠️ Technologies
+## Technologies Used
 
-- **HTML5** : Structure de l'application
-- **CSS3** : Design, animations et responsivité
-- **JavaScript (Vanilla)** : Logique du jeu et manipulation du DOM
-- **Hébergement & Déploiement** : Vercel
+This project is lightweight and performance-oriented, built with standard web technologies.
 
-## 🎮 Jouer en ligne
+### Languages
 
-👉 **[Tester le jeu ici](https://jeu-capital-du-monde.vercel.app/)**
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge\&logo=html5\&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge\&logo=css3\&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge\&logo=javascript\&logoColor=black)
 
-## 🚀 Lancer en local
+## Run Locally
 
-1. Clonez le dépôt :
+No installation required!
+
+1. Clone the repository:
+
    ```bash
    git clone https://github.com/Cyrus2401/jeuCapitalDuMonde.git
    ```
-2. Ouvrez le fichier `index.html` dans votre navigateur.
 
-## 👨‍💻 Auteur
+2. Open the `index.html` file directly in your browser (Chrome, Firefox, Safari).
 
-**Cyrus HESSOU**
-- [LinkedIn](https://www.linkedin.com/in/yao-cyrus-junior-hessou-b6a58122b/)
-- [GitHub](https://github.com/Cyrus2401)
+---
+
+**Made with ❤️ by Cyrus HESSOU**
+
+* LinkedIn: https://www.linkedin.com/in/yao-cyrus-junior-hessou-b6a58122b/
