@@ -1,26 +1,27 @@
-# World Capitals Game
+# World Capitals Quiz
 
-This application is a smooth, fast, and interactive quiz designed to test your geography knowledge of world capitals.
+A small interactive web game designed to test your knowledge of world capitals.
+
+This project features a simple frontend quiz that asks random questions about the capitals of countries, with a forgiving answer validation system and a final score evaluation.
 
 ## Features
 
-* **Answer tolerance**: ignores case sensitivity, spaces, and accents for a frustration-free experience.
-* **Built-in hints**: a simple hint system so you never get stuck.
-* **Gameplay-focused**: keyboard validation and a minimalist interface to keep you focused on the game.
+* World capitals quiz with random questions
+* Answer recognition tolerant of uppercase/lowercase letters, accents, spaces, and hyphens
+* Built-in hint system (first letter of the capital)
+* Instant feedback for correct and incorrect answers
+* Final score with performance evaluation
+* Easy game restart
 
 ## Technologies Used
 
-This project is lightweight and performance-oriented, built with standard web technologies.
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-### Languages
+## Usage
 
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge\&logo=html5\&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge\&logo=css3\&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge\&logo=javascript\&logoColor=black)
-
-## Run Locally
-
-No installation required!
+No installation is required. This is a static web application.
 
 1. Clone the repository:
 
@@ -28,10 +29,21 @@ No installation required!
    git clone https://github.com/Cyrus2401/jeuCapitalDuMonde.git
    ```
 
-2. Open the `index.html` file directly in your browser (Chrome, Firefox, Safari).
+2. Open `index.html` in your web browser.
 
----
+## Live Demo
 
-**Made with ❤️ by Cyrus HESSOU**
+The game is available online here:
 
-* LinkedIn: https://www.linkedin.com/in/yao-cyrus-junior-hessou-b6a58122b/
+https://world-capitals-quiz-one.vercel.app/
+
+## Project Structure
+
+* `index.html` — Main quiz webpage
+* `style.css` — Styling and layout
+* `index.js` — Game logic and answer handling
+* `README.md` — Project documentation
+
+## License
+
+This project is licensed under the MIT License.
